@@ -56,11 +56,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f91b0703c2db1614e8b51272280386c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ce5d79b5b4ce2a0459d6091c1dc86032, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample2:
@@ -74,14 +74,19 @@ Material:
     m_Floats:
     - _BorderColorIntensity: 0.19307193
     - _CenterColorIntensity: 1
-    - _DepthDistance: 2
-    - _Falloff: 12
-    - _Float0: 0
+    - _DepthDistance: 1
+    - _DistanceFromPortal: 6.65
+    - _DistortionScale: 0.1
+    - _Falloff: 11
+    - _Float0: 1
     - _Float3: -0.000000222744
-    - _GeneralOpacity: 0.2
+    - _FlowmapDistortion: 0.7528376
+    - _GeneralOpacity: 0.9
+    - _NoiseIntensity: 1
+    - _NoiseScale: 1.3
     - _RuneColorIntensity: 0
     - _RunesHeight: 10
-    - _Scale: 1.28
+    - _Scale: 1.3
     - _TransAmbient: 0.2
     - _TransDirect: 1
     - _TransNormalDistortion: 0.1
