@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DissapearingBridge
+  m_Shader: {fileID: 4800000, guid: 596175baeb41ffd45992a3647f043aef, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 9c66a01f96be243459860235991a978f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: f88de2f4f35a07c4784ad7285a90f0f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: e3ad966b7fa4d2d4499ef60af9adbaaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FallOff: 1
+    - _Float0: 1
+    - _Float1: 0.42352942
+    - _Float2: 0.16
+    - _Radius: 12
+    - __dirty: 0
+    - _e: 0
+    m_Colors:
+    - _PlayerPosition: {r: 1.5682024e-34, g: 0, b: -5.1, a: 0}
+    - _PointPosition: {r: -0.19, g: -4.417074, b: -5.39, a: 0}
+  m_BuildTextureStacks: []
