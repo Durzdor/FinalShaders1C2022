@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon
+  m_Name: ToonMossBrick
   m_Shader: {fileID: 4800000, guid: 30905543f4967a947b3d2a327b67a51a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
