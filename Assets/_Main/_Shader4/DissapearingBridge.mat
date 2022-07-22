@@ -45,6 +45,6 @@ Material:
     - __dirty: 0
     - _e: 0
     m_Colors:
-    - _PlayerPosition: {r: 0, g: 0.00000011920929, b: -23.02, a: 0}
+    - _PlayerPosition: {r: 0.3680791, g: 0, b: -10.779528, a: 0}
     - _PointPosition: {r: -0.19, g: -4.417074, b: -5.39, a: 0}
   m_BuildTextureStacks: []
