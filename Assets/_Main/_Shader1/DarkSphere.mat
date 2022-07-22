@@ -97,6 +97,6 @@ Material:
     - _TransScattering: 2
     - _TransShadow: 0.9
     - _Translucency: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors: []
   m_BuildTextureStacks: []
