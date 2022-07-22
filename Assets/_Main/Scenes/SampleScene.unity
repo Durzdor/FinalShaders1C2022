@@ -6316,7 +6316,7 @@ GameObject:
   - component: {fileID: 2026365686}
   - component: {fileID: 2026365685}
   - component: {fileID: 2026365684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RenderTextureCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6336,7 +6336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 7078cdaf079731442a7152a2cd65b4e5, type: 3}
-  intensity: 0.06
+  intensity: 0.04
 --- !u!20 &2026365685
 Camera:
   m_ObjectHideFlags: 0
