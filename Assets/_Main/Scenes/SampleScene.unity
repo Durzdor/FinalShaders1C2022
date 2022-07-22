@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 1204281555}
   m_Layer: 0
   m_Name: AuraSphere
-  m_TagString: Untagged
+  m_TagString: PortalDistortion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6330,13 +6330,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026365683}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48dd0580d24261d458c551847d5052e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shader: {fileID: 0}
-  intensity: 0
+  shader: {fileID: 4800000, guid: 7078cdaf079731442a7152a2cd65b4e5, type: 3}
+  intensity: 0.06
 --- !u!20 &2026365685
 Camera:
   m_ObjectHideFlags: 0

@@ -42,9 +42,9 @@ Material:
     - _Float2: 0.16
     - _Height: 2.5
     - _Radius: 7
-    - __dirty: 1
+    - __dirty: 0
     - _e: 0
     m_Colors:
-    - _PlayerPosition: {r: -0.7851536, g: 0.00000023841858, b: -21.065973, a: 0}
+    - _PlayerPosition: {r: 0.029975746, g: -0.00000035762787, b: -2.8277643, a: 0}
     - _PointPosition: {r: -0.19, g: -4.417074, b: -5.39, a: 0}
   m_BuildTextureStacks: []
