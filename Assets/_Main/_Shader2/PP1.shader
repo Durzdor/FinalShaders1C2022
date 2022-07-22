@@ -1,6 +1,6 @@
 // Made with Amplify Shader Editor
 // Available at the Unity Asset Store - http://u3d.as/y3X 
-Shader "PPPortal"
+Shader "PP1"
 {
 	Properties
 	{
@@ -128,7 +128,7 @@ Node;AmplifyShaderEditor.SaturateNode;16;210.627,543.3231;Inherit;False;1;0;FLOA
 Node;AmplifyShaderEditor.LerpOp;17;411.4831,345.5278;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.ScreenDepthNode;13;-199.7036,519.3568;Inherit;False;0;True;1;0;FLOAT4;0,0,0,0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;5;-143.0239,-260.4085;Inherit;True;Property;_ScreenDefault;ScreenDefault;3;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;33;672.3729,-261.0744;Float;False;True;-1;2;ASEMaterialInspector;0;2;PPPortal;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;False;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;33;672.3729,-261.0744;Float;False;True;-1;2;ASEMaterialInspector;0;2;PP1;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;False;False;False;False;False;False;False;False;False;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;False;0
 WireConnection;6;2;4;0
 WireConnection;8;0;6;0
 WireConnection;8;1;7;0
@@ -144,4 +144,4 @@ WireConnection;5;0;4;0
 WireConnection;5;1;10;0
 WireConnection;33;0;5;0
 ASEEND*/
-//CHKSM=34E8A03FE45AA5C4710D108F73BDA7AC3E7112A0
+//CHKSM=25E8E56E818823CA059F7629FC74C0396B738341

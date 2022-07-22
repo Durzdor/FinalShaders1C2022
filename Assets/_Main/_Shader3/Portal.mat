@@ -7,28 +7,28 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissapearingBridge
-  m_Shader: {fileID: 4800000, guid: 596175baeb41ffd45992a3647f043aef, type: 3}
+  m_Name: Portal
+  m_Shader: {fileID: 4800000, guid: dcdd7f37c318cd448bbf8706e67e167f, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 9c66a01f96be243459860235991a978f, type: 3}
+        m_Texture: {fileID: 2800000, guid: c712d2db1b58f2a438a5044acc4acc0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 3026c5f48ed81264585300397ccdb5e7, type: 3}
+        m_Texture: {fileID: 8400000, guid: f2b2095ee8b74f34ca4ef7d76e848b78, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample2:
-        m_Texture: {fileID: 2800000, guid: e3ad966b7fa4d2d4499ef60af9adbaaa, type: 3}
+    - _TextureSample4:
+        m_Texture: {fileID: 2800000, guid: e06c2131c4652234c9b77ee97cfcca75, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -36,15 +36,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FallOff: 1
-    - _Float0: 1
-    - _Float1: 0.42352942
-    - _Float2: 0.16
-    - _Height: 2.5
-    - _Radius: 7
-    - __dirty: 1
-    - _e: 0
-    m_Colors:
-    - _PlayerPosition: {r: 0.052433137, g: -0.00000047683716, b: -1.3888563, a: 0}
-    - _PointPosition: {r: -0.19, g: -4.417074, b: -5.39, a: 0}
+    - _BorderWidth: 0.55
+    - _DistortionScale: 0.1
+    - _Float0: 1.4
+    - _Float1: 0.3
+    - _Float3: 0.1
+    - __dirty: 0
+    m_Colors: []
   m_BuildTextureStacks: []
