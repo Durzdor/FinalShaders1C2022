@@ -11,8 +11,9 @@ public class SimpleShutdown : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            go.SetActive(!go.activeInHierarchy);
             PpSwitcher.enabled = !go.activeInHierarchy;
+            go.SetActive(!go.activeInHierarchy);
+           
         }
     }
 }
