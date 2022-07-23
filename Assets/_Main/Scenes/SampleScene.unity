@@ -4652,10 +4652,10 @@ Transform:
   - {fileID: 1414081944}
   - {fileID: 1825442133}
   - {fileID: 298320107}
+  - {fileID: 4305040899482290658}
   - {fileID: 1271293017}
   - {fileID: 2005260821}
   - {fileID: 1901923608}
-  - {fileID: 4305040899482290658}
   - {fileID: 1898338015}
   - {fileID: 533104627}
   - {fileID: 558360925}
@@ -6766,7 +6766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1646384922
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10441,7 +10441,7 @@ Transform:
   m_LocalScale: {x: 0.52928996, y: 0.50404, z: 0.50404}
   m_Children: []
   m_Father: {fileID: 1142898117}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4305040899482540348
 GameObject:
